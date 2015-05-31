@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/raspicam-0.1.3/build/test/essaiBottleDetection_RPi.cpp
+iostream
+-
+sstream
+-
+string
+-
+stdio.h
+-
+opencv/highgui.h
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv/cv.h
+-
+raspicam/raspicam_cv.h
+-
+
+/usr/local/include/raspicam/raspicam_cv.h
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
